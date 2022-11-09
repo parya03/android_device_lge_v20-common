@@ -31,7 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    #NoCutoutOverlay # Won't build with it, will deal with it later
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
